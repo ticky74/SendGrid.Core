@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
   "packOptions": {
     "owners": [
       "ticky74"
@@ -18,11 +18,12 @@
       "Email Client",
       "netcore"
     ],
-    "iconUrl": "https://kode4storage.blob.core.windows.net/static-resources/img/k4icon-transparent-120X120.png"
+    "projectUrl": "https://github.com/ticky74/SendGrid.Core",
+    "iconUrl": "https://kode4storage.blob.core.windows.net/static-resources/img/k4icon-transparent-120X120.png",
+    "releaseNotes": "Ugradeded to NETStandard.Library 1.6.1"
   },
   "name": "SendGrid.Core",
-  "title": "SendGrid Core Client",
-  "projectUrl": "https://github.com/ticky74/SendGrid.Core",
+  "title": "SendGrid Core Client",  
   "authors": [
     "ticky74"
   ],
@@ -30,7 +31,7 @@
   "description": "Wrapper around SendGrid web api v3 to send mail messages from your app.",
 
   "dependencies": {
-    "NETStandard.Library": "1.6.0",
+    "NETStandard.Library": "1.6.1",
     "Microsoft.AspNet.WebApi.Client": "5.2.3",
     "ServiceStack.Text.Core":  "1.0.30"  
   },
