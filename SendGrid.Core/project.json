@@ -20,7 +20,7 @@
     ],
     "projectUrl": "https://github.com/ticky74/SendGrid.Core",
     "iconUrl": "https://kode4storage.blob.core.windows.net/static-resources/img/k4icon-transparent-120X120.png",
-    "releaseNotes": "Ugradeded to NETStandard.Library 1.6.1"
+    "releaseNotes": "Ugraded to NETStandard.Library"
   },
   "name": "SendGrid.Core",
   "title": "SendGrid Core Client",  
