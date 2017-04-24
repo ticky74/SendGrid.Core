@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Wrapper around SendGrid web api v3 to send mail messages from your app.</Description>
+    <Copyright>Copyright 2016</Copyright>
+    <AssemblyTitle>SendGrid Core Client</AssemblyTitle>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Authors>ticky74</Authors>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>SendGrid.Core</AssemblyName>
+    <PackageId>SendGrid.Core</PackageId>
+    <PackageTags>SendGrid;C#;Email;Email Client;netcore</PackageTags>
+    <PackageReleaseNotes>Removed dependency on WebApi, sorry about that.</PackageReleaseNotes>
+    <PackageIconUrl>https://kode4storage.blob.core.windows.net/static-resources/img/k4icon-transparent-120X120.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/ticky74/SendGrid.Core</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/ticky74/SendGrid.Core/blob/master/LICENSE.TXT</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/ticky74/SendGrid.Core</RepositoryUrl>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50;portable-net452+win81</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.Text.Core" Version="1.0.40" />
+    <PackageReference Include="System.Net.Http" Version="4.3.1" />
+  </ItemGroup>
+
+</Project>

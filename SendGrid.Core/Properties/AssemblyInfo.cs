@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Kode4 Studios")]
 [assembly: AssemblyProduct("SendGrid.Core")]
 [assembly: AssemblyTrademark("")]
 
