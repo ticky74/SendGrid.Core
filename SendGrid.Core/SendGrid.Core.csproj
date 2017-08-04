@@ -1,5 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Description>Wrapper around SendGrid web api v3 to send mail messages from your app.</Description>
     <Copyright>Copyright 2016</Copyright>
@@ -23,10 +23,8 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <Version>1.0.3</Version>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="ServiceStack.Text.Core" Version="1.0.40" />
-    <PackageReference Include="System.Net.Http" Version="4.3.1" />
+    <PackageReference Include="ServiceStack.Text.Core" Version="1.0.43"/>
+    <PackageReference Include="System.Net.Http" Version="4.3.2"/>
   </ItemGroup>
-
 </Project>
