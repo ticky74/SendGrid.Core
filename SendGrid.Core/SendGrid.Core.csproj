@@ -4,9 +4,9 @@
     <Description>Wrapper around SendGrid web api v3 to send mail messages from your app.</Description>
     <Copyright>Copyright 2016</Copyright>
     <AssemblyTitle>SendGrid Core Client</AssemblyTitle>
-    <VersionPrefix>1.0.1</VersionPrefix>
+    <VersionPrefix>1.1.0</VersionPrefix>
     <Authors>ticky74</Authors>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFrameworks>netstandard1.6;netstandard1.5;netstandard1.4</TargetFrameworks>
     <AssemblyName>SendGrid.Core</AssemblyName>
     <PackageId>SendGrid.Core</PackageId>
     <PackageTags>SendGrid;C#;Email;Email Client;netcore</PackageTags>

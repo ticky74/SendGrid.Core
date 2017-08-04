@@ -14,5 +14,18 @@ namespace SendGrid.Core
         public string Subject { get; set; }
         [DataMember]
         public List<MessageContent> Content { get; set; }
+        [DataMember(Name="attachments")]
+        public List<SendGridAttachment> Attachments {get;set;}
+        public SendGridMailMessage Attach(SendGridAttachment attachment)
+        {
+            if (attachment == null)
+                return this;
+
+            if (Attachments == null)
+                Attachments = new List<SendGridAttachment>();
+
+            Attachments.Add(attachment);
+            return this;
+        } 
     }
 }
